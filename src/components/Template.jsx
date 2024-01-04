@@ -7,7 +7,7 @@ import { FcGoogle} from "react-icons/fc";
 
 const Template = (props) => {
   return (
-    <div className='flex w-11/12 max-w-[1160px] py-12 mx-auto gap-y-0 gap-x-12 justify-between'>
+    <div className='flex w-11/12 max-w-[1160px] h-screen py-12 mx-auto gap-y-0 gap-x-12 justify-between'>
       <div className='w-11/12 max-w-[450px] mx-0 text-white flex flex-col gap-3'>
       <h1 className='text-richblack-5 font-semibold text-[1.875rem] leading-[2.375rem] capitalize'>{props.heading}</h1>
       <p className="text-[1.125rem] leading-[1.625rem]"> 

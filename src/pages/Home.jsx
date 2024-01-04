@@ -13,7 +13,7 @@ const Home = () => {
        <ChooseUs />
        <Subscribe />
        <ExploreCourse />
-       
+       <Footer/>
     </div>
   )
 }
