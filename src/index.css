@@ -1,0 +1,38 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+@keyframes drawLine {
+    0% {
+        width: 0;
+       
+      }
+    25% {
+        width: 100px;
+      }
+    50% {
+        width: 200px;
+      }
+    75% {
+        width: 300px;
+      }
+    
+      100% {
+        width: 400px;
+      }
+  }
+  
+  .animate-drawLine {
+    width: 400px;
+    height: 40px;
+    border: solid 5px #c31b1b;
+    border-color:red transparent transparent transparent ;
+    border-radius: 50%;
+    
+    /* border-color: transparent transparent #d42222 transparent; */
+    /* border-radius: 0 0 140px 50%/30px; */
+    /* transform: rotate(180deg); */
+    animation: drawLine 1s linear ;
+  }
+
+  
