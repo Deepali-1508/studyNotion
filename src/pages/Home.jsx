@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div className=' flex flex-col my-[5rem] justify-between items-center mx-auto w-full h-full'>
+    <div className=' flex flex-col mt-[5rem] justify-between items-center mx-auto w-full h-full'>
        <Hero />
        <ChooseUs />
        <Subscribe />
