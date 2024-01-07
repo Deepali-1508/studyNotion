@@ -31,12 +31,9 @@ const Dashboard = () => {
 
   return (
     // <div className='flex items-center justify-center h-full'>
-      <div className=" bg-[#4A4E69] min-h-screen flex flex-col">
-    <div>
-    {/* <Header/> */}
-    </div>
+      <div className=" bg-black min-h-screen flex flex-col">
    
-   <div className="bg-[#4A4E69]">
+   <div className="bg-black">
    <div>
     <CourseName category={category} setCategory={setCategory} filterData={filterData}/>
     </div>
