@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 
 import {toast} from 'react-toastify';
  import Spinner from './Spinner';
+import Footer from '../components/Footer';
 
 const Dashboard = () => {
 
@@ -43,6 +44,7 @@ const Dashboard = () => {
    </div>
    </div>
     
+    <Footer/>
     </div>
     // </div>
   )

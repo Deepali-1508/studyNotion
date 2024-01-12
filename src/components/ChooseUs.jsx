@@ -4,12 +4,12 @@ import { GiBookshelf,GiSandsOfTime,GiTeacher,GiNotebook } from "react-icons/gi";
 const ChooseUs = () => {
   return (
     <div className='w-11/12 max-w-[1160x] pb-10 pt-10 mt-10'>
-        <h2 className='text-5xl font-inter my-10 pb-10 font-semibold text-center'>Why Choose Us</h2>
-      <div className='flex items-center justify-center gap-20 z-150 w-full mt-10 text-center '>
+        <h2 className='text-3xl md:text-4xl xl:text-5xl font-inter my-10 pb-10 font-semibold text-center'>Why Choose Us</h2>
+      <div className='flex flex-wrap items-center justify-center gap-10 z-150 w-full mt-5 md:mt-15 text-center '>
       
 
         <div className='transition-[bg-gradient-to-r] duration-300 ease-in-out w-[300px] h-[250px] flex gap-4 flex-col items-center justify-center text-white  p-4 rounded-md '>
-          <GiBookshelf fontSize={'3rem'}/>
+          <GiBookshelf className=' text-3xl md:text-4xl lg:text-5xl xl:text-6xl' />
           <h3 className='text-xl font-semibold'>Expert-Led Courses</h3>
           <div className='font-light text-sm'>Learn from industry experts who bring real-world experience into the virtual classroom. Our instructors are passionate about sharing their knowledge and guiding you towards success.</div>
         </div>
@@ -39,7 +39,5 @@ const ChooseUs = () => {
 }
 
 export default ChooseUs
-
-
 
 

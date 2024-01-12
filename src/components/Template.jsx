@@ -7,7 +7,7 @@ import { FcGoogle} from "react-icons/fc";
 
 const Template = (props) => {
   return (
-    <div className='flex w-11/12 max-w-[1160px] h-screen py-12 mx-auto gap-y-0 gap-x-12 justify-between'>
+    <div className='flex w-11/12 max-w-[1160px] h-full py-12 mx-auto gap-y-0 gap-x-12 justify-center md:justify-between'>
       <div className='w-11/12 max-w-[450px] mx-0 text-white flex flex-col gap-3'>
       <h1 className='text-richblack-5 font-semibold text-[1.875rem] leading-[2.375rem] capitalize'>{props.heading}</h1>
       <p className="text-[1.125rem] leading-[1.625rem]"> 
@@ -31,18 +31,18 @@ const Template = (props) => {
       </button>
     </div>
 
-    <div className='relative w-11/12 max-w-[450px]'>
-    <img src={frame}   
+    <div className='relative w-11/12 max-w-[450px] hidden md:block'>
+    <img src={frame}   alt='frame'
           width={558}
           height={504}
           loading="lazy"
           />
 
-       <img src={props.imgSrc}  
+       <img src={props.imgSrc}  alt='frame'
           width={558}
           height={504}
           loading="lazy"
-          className='absolute -top-4 right-4 z-50 '
+          className=' absolute -top-4 right-4 z-50 '
           />
 
        

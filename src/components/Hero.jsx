@@ -14,8 +14,8 @@ const Hero = () => {
         <button>Start Learning</button>
       </div>
 
-      <div className='relative pt-10  rounded-full' >
-      <img src={homePage1} alt="image" width={500} height={500}  className='z-40'/>
+      <div className='relative pt-10  rounded-full hidden xl:block' >
+      <img src={homePage1} width={500} height={500}  className='z-40'/>
       <img className='absolute top-[-5rem] left-[-12rem] md:rotate-[105deg] z-0' src={arrow} alt="" width={300} height={150} />
       </div>
       </div>

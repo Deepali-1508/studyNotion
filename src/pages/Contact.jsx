@@ -16,9 +16,9 @@ const Contact = () => {
 
   return (
     <div className='flex flex-col items-center justify-center h-full w-full bg-black my-10'>
-    <div className=' w-full relative h-[700px]'>
-     <img src={map} alt="image" className='w-full h-[500px] object-cover'/>
-     <div className='absolute bg-white w-[600px] h-[600px] top-10 right-[27rem] rounded-md'>
+    <div className=' w-full flex lg:block lg:relative h-[700px]'>
+     <img src={map} alt="mapimage" className='w-full h-[500px] object-cover'/>
+     <div className='absolute bg-white sm:w-full  md:w-[600px] h-[600px] md:right-[5rem] md:top-15 lg:top-10 lg:right-[8rem] xl:right-[12rem] rounded-md'>
        <form onSubmit={handleSubmit} className='text-black p-20'>
 
        <input type="text" id='name' name='fname' value={formData.fname} onChange={handleChange} placeholder='Name' 
